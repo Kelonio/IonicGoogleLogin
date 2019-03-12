@@ -1,0 +1,6 @@
+{
+  "appId": "com.inercya.elingua",
+  "appName": "Elingua",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}
