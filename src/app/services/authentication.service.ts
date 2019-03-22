@@ -2,7 +2,7 @@ import { Platform } from '@ionic/angular';
 import { Injectable } from '@angular/core';
 import { Storage } from '@ionic/storage';
 import { BehaviorSubject, Observable } from 'rxjs';
-import {HttpClient} from '@angular/common/http';
+import { HttpClient} from '@angular/common/http';
 
 import {LoginResultModel} from './../model/LoginResultModel';
 

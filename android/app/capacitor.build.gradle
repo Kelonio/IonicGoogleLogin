@@ -2,7 +2,8 @@
 apply from: "../capacitor-cordova-android-plugins/cordova.variables.gradle"
 dependencies {
 
-
+    implementation "com.google.android.gms:play-services-auth:11.8.0"
+    implementation "com.google.android.gms:play-services-identity:11.8.0"
 }
 
 

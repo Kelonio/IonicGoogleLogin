@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "223418638526",
+    "firebase_url": "https://elingua-test.firebaseio.com",
+    "project_id": "elingua-test",
+    "storage_bucket": "elingua-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223418638526:android:347fcc740b3ffb58",
+        "android_client_info": {
+          "package_name": "com.inercya.elingua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223418638526-3429jhhpm7ousb2daj0as8mlbkab0q3m.apps.googleusercontent.com", 
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inercya.elingua",
+            "certificate_hash": "1c87cf0fc42eff87238c5e40441fe0720d4fe2b4"
+          }
+        },
+        {
+          "client_id": "223418638526-mil3a2e317qa5utbnu8ifdspnhlms21k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX9iGMveoCO8P7HjtxfdjWpZgj7cqF4X4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223418638526-mil3a2e317qa5utbnu8ifdspnhlms21k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

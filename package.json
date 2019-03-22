@@ -24,11 +24,19 @@
     "@capacitor/cli": "^1.0.0-beta.19",
     "@capacitor/core": "^1.0.0-beta.19",
     "@ionic-native/core": "^5.0.0",
+    "@ionic-native/google-plus": "^5.2.0",
+    "@ionic-native/native-storage": "^5.2.0",
     "@ionic-native/splash-screen": "^5.0.0",
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic/angular": "^4.1.0",
     "@ionic/storage": "^2.2.0",
+    "angularfire2": "^5.1.2",
+    "cordova-plugin-googleplus": "^7.0.0",
+    "cordova-plugin-nativestorage": "^2.3.2",
     "core-js": "^2.5.4",
+    "firebase": "^5.9.0",
+    "my": "^0.3.3",
+    "node-sass": "^4.11.0",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.29"
   },
@@ -58,5 +66,13 @@
     "tslint": "~5.12.0",
     "typescript": "~3.1.6"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-googleplus": {
+        "REVERSED_CLIENT_ID": "223418638526-3429jhhpm7ousb2daj0as8mlbkab0q3m.apps.googleusercontent.comIn"
+      },
+      "cordova-plugin-nativestorage": {}
+    }
+  }
 }
